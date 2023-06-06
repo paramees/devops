@@ -1,3 +1,5 @@
-down-script.ssh
-up-script.ssh
+down-script.sh
+up-script.sh
+build_test.sh
+up-script-ssl.sh
 docker-data
