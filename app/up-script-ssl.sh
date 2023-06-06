@@ -59,6 +59,7 @@ until docker inspect -f '{{.State.Running}}' certbot 2>/dev/null | grep -q "true
 done
 
 # Запуск контейнера Nginx с сертификатом
+sleep 5
 docker stop nginx
 docker rm nginx
 docker run -d --name nginx \
