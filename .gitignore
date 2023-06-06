@@ -2,5 +2,5 @@
 **/archive/
 **/accounts/
 **/*.pem
-**/node-modules
+**/node_modules
 **/dist
